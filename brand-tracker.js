@@ -1,4 +1,5 @@
 console.log("loaded!");
+console.log("loaded!");
 
 const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
