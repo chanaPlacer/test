@@ -16,6 +16,8 @@ document.getElementById("select-brand").value = brand;
 document.getElementById("select-region").value = region;
 document.getElementById("select-compare").value = compare;
 
+console.log("loaded!!!");
+
 /* SEO Title */
 function updatePageTitle() {
   const title = `${brand} Brand Tracker in ${region}`;
